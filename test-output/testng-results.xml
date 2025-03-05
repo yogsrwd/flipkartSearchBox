@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-05T08:51:14 IST" name="Suite" finished-at="2025-03-05T08:52:05 IST" duration-ms="51367">
+    <groups>
+    </groups>
+    <test started-at="2025-03-05T08:51:14 IST" name="chromeTest" finished-at="2025-03-05T08:51:23 IST" duration-ms="9673">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:runner.Runner@2de23121]" started-at="2025-03-05T08:51:14 IST" name="setup" finished-at="2025-03-05T08:51:18 IST" duration-ms="4697" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@1bc715b8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchBoxTest(java.lang.String)[pri:0, instance:runner.Runner@2de23121]" started-at="2025-03-05T08:51:18 IST" name="searchBoxTest" finished-at="2025-03-05T08:51:23 IST" duration-ms="4576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.Runner@2de23121]" started-at="2025-03-05T08:51:23 IST" name="tearDown" finished-at="2025-03-05T08:51:23 IST" duration-ms="345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- chromeTest -->
+    <test started-at="2025-03-05T08:51:14 IST" name="FirefoxTest" finished-at="2025-03-05T08:51:29 IST" duration-ms="15030">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:runner.Runner@117e949d]" started-at="2025-03-05T08:51:13 IST" name="beforeSuite" finished-at="2025-03-05T08:51:14 IST" duration-ms="317" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:runner.Runner@117e949d]" started-at="2025-03-05T08:51:14 IST" name="setup" finished-at="2025-03-05T08:51:25 IST" duration-ms="11034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@2b491fee]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchBoxTest(java.lang.String)[pri:0, instance:runner.Runner@117e949d]" started-at="2025-03-05T08:51:25 IST" name="searchBoxTest" finished-at="2025-03-05T08:51:27 IST" duration-ms="2700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.Runner@117e949d]" started-at="2025-03-05T08:51:27 IST" name="tearDown" finished-at="2025-03-05T08:51:29 IST" duration-ms="1250" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:runner.Runner@117e949d]" started-at="2025-03-05T08:52:05 IST" name="afterSuite" finished-at="2025-03-05T08:52:05 IST" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2025-03-05T08:51:14 IST" name="EdgeTest" finished-at="2025-03-05T08:52:05 IST" duration-ms="51367">
+      <class name="runner.Runner">
+        <test-method is-config="true" signature="setup(java.lang.String,org.testng.ITestContext)[pri:0, instance:runner.Runner@424e1977]" started-at="2025-03-05T08:51:14 IST" name="setup" finished-at="2025-03-05T08:51:58 IST" duration-ms="44535" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[org.testng.TestRunner@292d1c71]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="searchBoxTest(java.lang.String)[pri:0, instance:runner.Runner@424e1977]" started-at="2025-03-05T08:51:58 IST" name="searchBoxTest" finished-at="2025-03-05T08:52:02 IST" duration-ms="3906" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchBoxTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:runner.Runner@424e1977]" started-at="2025-03-05T08:52:02 IST" name="tearDown" finished-at="2025-03-05T08:52:05 IST" duration-ms="2879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Flipkart Tests" verbose="1">
+    <listeners>
+        <listener class-name="listeners.ScreenshotListener"/>
+    </listeners>
+    
+    <test name="Simple Test">
+        <parameter name="browser" value="chrome"/> <!-- Change this as needed -->
+        <classes>
+            <class name="runner.SimpleTest"/>
+        </classes>
+    </test>
+</suite>
