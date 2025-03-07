@@ -12,7 +12,7 @@
 
 		<parameter name="browser" value="chrome" />
 		<classes>
-			<class name="runner.Runner" />
+			<class name="runner.RunnerTest" />
 		</classes>
 	</test> <!-- Test -->
 
@@ -20,7 +20,7 @@
 
 		<parameter name="browser" value="edge" />
 		<classes>
-			<class name="runner.Runner" />
+			<class name="runner.RunnerTest" />
 		</classes>
 	</test> 
 
@@ -28,7 +28,7 @@
 
 		<parameter name="browser" value="firefox" />
 		<classes>
-			<class name="runner.Runner" />
+			<class name="runner.RunnerTest" />
 		</classes>
 	</test> 
 </suite> 

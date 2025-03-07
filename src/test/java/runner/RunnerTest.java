@@ -15,7 +15,7 @@ import utils.ReportsManager;
 import java.time.Duration;
 import java.util.List;
 
-public class Runner extends Base {
+public class RunnerTest extends Base {
 
     @Parameters("browser")
     @Test

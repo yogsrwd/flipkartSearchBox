@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import base.Base;
 import pages.HomePage;
 
-public class SimpleTest extends Base {
+public class Simple extends Base {
     
     @Test
     public void simpleSearchTest() throws InterruptedException {
